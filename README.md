@@ -1,4 +1,5 @@
-# exoplanet-mass-estimation-and-classification
+# Exoplanet Mass Estimation and Classification
+
 Machine learning–based exoplanet mass estimation and classification using data from the NASA Exoplanet Archive.
 
 This is an end-to-end data science project that applies supervised machine learning techniques to estimate exoplanet mass and classify exoplanets into high-mass and low-mass categories based on astronomical features.
@@ -20,6 +21,9 @@ The complete workflow — from data preprocessing to model evaluation — is imp
 ## 📊 Dataset
 
 **Source:** NASA Exoplanet Archive  
+The dataset used in this project is publicly available and was obtained from the NASA Exoplanet Archive.
+
+Dataset link: https://exoplanetarchive.ipac.caltech.edu/
 
 ### Target Variable
 - **pl_bmasse** — Planetary mass (Earth masses)
@@ -44,8 +48,8 @@ The complete workflow — from data preprocessing to model evaluation — is imp
 
 ### Data Preprocessing
 - Data cleaning and handling missing values
-- Log transformation
-- Feature scaling
+- Log transformation for skewed features
+- Feature scaling for machine learning models
 
 ### Machine Learning Models
 
