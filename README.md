@@ -72,3 +72,5 @@ heatmap-confusion matrix
 - linear regression - r2 _score-**0.96**
 - **Classification Performance:**
   accuracy -logistic -**0.99**
+  f1 _score compare different model - pie chart 
+  
